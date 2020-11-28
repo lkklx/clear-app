@@ -1,0 +1,105 @@
+
+.main-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardform{
+    background-image: url('../CardForm/Card.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 690px;
+    width: 911px;
+    position: relative; 
+    margin-top: 5%;
+}
+
+.cardNumberInput{
+    position: absolute;
+    left:3%;
+    text-align: center;
+    top:5%;
+    .form-number{
+        text-align: center;
+        font-size:40pt;
+        margin-right: 7px;
+    } 
+}
+.error-message{
+    color: red;
+    font-size:14pt;
+    margin-top: 0;
+}
+.cardDateInput{
+    position: absolute;
+    left:20px;
+    top:30%;
+    text-align: center;
+    margin-top:20px;
+    .text-date{
+        margin: 0;
+    }
+    .form-date{
+        font-size:33pt;
+        text-align: center;
+    }
+}
+
+.text-style{
+    color: black;
+    font-size:25pt;
+    font-weight: bolder;
+    margin: 0;
+}
+.cvv-form{
+    position: absolute;
+    top: 82%;
+    right: 15%;
+    text-align: center;
+    
+    
+}
+.cardCVVInput{
+    display:flex;
+    align-items: center;
+    
+    .form-CVV{
+        font-size:30pt;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 7px;
+    }
+}
+
+.paying-system-logo{
+    position: absolute;
+    right:20%;
+    bottom:30%;
+    img{
+        height:70px;
+        width: 150px;
+    }
+}
+
+.date-select{
+    font-size:30pt;
+    margin-right: 7px;
+}
+.pay-button{
+    margin-top:20px;
+    
+    font-size:45pt;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 40px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+  } 
+.pay-button:hover { background: rgb(53, 167, 110); }
+.pay-button:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
